@@ -2,4 +2,5 @@ OMM
 
 JAVA
 
-1) Variables
+1) Printing
+2) Data Types
