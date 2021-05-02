@@ -1,76 +1,41 @@
 package com.company;
 
+import java.util.Locale;
+
 public class Main {
 
     public static void main(String[] args) {
 
-/**In c program data types
- int,
- float,
- char,
- double
- */
+        char a[] = {'a', ' ', '8', '.', '9', '0', '^', 'a', ';', ','};
 
-/**In JAVA program data types (PRIMITIVE)
- int,[*]
- float,
- char,
- double,
- bool
- */
-
-//        "I am Natheeshkumar";
-
-/*In c program
-
-char charter=i;
-* */
-        //Variable declaration
-        int numbers = 456383;
-        int number123 = 456383;
-        int _number = 456383;
-        int $number = 456383;
-        int x = 4000;
-
-//I am natheesh
-
-        int number = 456383;
-        char character = 'z';
-        float decimal = 45.67f;
-        boolean state = false;
-
-        char characterArray[] = {'I', ' ', 'a', 'm', ' ', 'n', 'a', 't', 'h', 'e', 'e', 's', 'h'};
-
-        for (int index = 0; index < characterArray.length; index++) {
-            System.out.print(characterArray[index]);
+        for (int index = 0; index < a.length; index++) {
+            System.out.print(a[index]);
         }
+
         System.out.println();
 
+        String message = "Hi ,762@%'{} I am Natheeshkumar,Sarankumar,";
+        System.out.println(message);
+        System.out.println(message.length());
+        System.out.println(message.toUpperCase());
+        System.out.println(message.toLowerCase());
+        System.out.println(message.charAt(5));
+        System.out.println(message.contains("Natheeshkumar"));
 
+        System.out.println();
 
-        /*In c
-        printf("%d",number);
+        message = message.concat("Naveenkumar");
+
+        System.out.println(message.concat("Naveenkumar"));
+
+        if (message.contains("Naveenkumar")) {
+            System.out.println("Natheesh is present");
+        } else {
+            System.out.println("Natheesh is not present");
+        }
+        /*
+        In C,
+        char a[]={'a',' ','8','.','9','0','^'};
         * */
-
-        /*In Java
-          System.out.println(number);
-        * */
-        System.out.println(number);
-        System.out.println(x);
-        System.out.println(decimal);
-        System.out.println(character);
-        System.out.println(state);
-
-
-
-        /*  ARRAY
-         *
-        //index    0, 1 , 2 , 3, 4, 5
-        int a[] = {8, 12, 13, 4, 5, 3};
-
-        System.out.println(a[4]);
-        */
-
-
     }
 }

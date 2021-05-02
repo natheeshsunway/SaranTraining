@@ -3,4 +3,5 @@ OMM
 JAVA
 
 1) Printing
-2) Data Types
+2) Data Types - Primitive -(int , float, char ,double,boolean)
+3) Data Types - Non-Primitive -(class, array, string)
