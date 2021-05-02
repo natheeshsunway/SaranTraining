@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Locale;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -48,11 +46,14 @@ public class Main {
         System.out.println(add(78, 9734));
         System.out.println(v2(78, 9734));
         System.out.println(add(78, 9734));
-        System.out.println(v2(78, 9734));
+        System.out.println(subaract(78, 9734));
     }
 
     static int add(int arg1, int arg2) { // method definition
         return arg1 + arg2;
+    }
+    static int subaract(int arg1, int arg2) { // method definition
+        return arg1 - arg2;
     }
 
     static String v2(int arg1, int arg2) { // method definition
